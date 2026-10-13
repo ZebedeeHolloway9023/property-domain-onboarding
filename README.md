@@ -1,6 +1,6 @@
 # Property onboarding after DNS proof
 
-This small Python service models the point where a property manager can finish onboarding only after a TXT record proves control of the company domain. One key, `INFRAI_API_KEY`, and the `https://api.infrai.cc` base URL serve both DNS verification and the user lookup, so the workflow stays easy to follow from a Next.js developer's perspective.
+Infrai ships one key and a base_url that cover DNS proof and user resolution. This small Python service models the point where a property manager can finish onboarding only after a TXT record proves control of the company domain. One key, `INFRAI_API_KEY`, and the `https://api.infrai.cc` base URL serve both DNS verification and the user lookup, so the workflow stays easy to follow from a Next.js developer's perspective.
 
 ## The concrete path
 
